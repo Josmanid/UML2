@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML2", "UML2\UML2.csproj", "{BB2CABB0-2C56-4CFB-B5C1-BB2C86F1BC57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB2CABB0-2C56-4CFB-B5C1-BB2C86F1BC57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2CABB0-2C56-4CFB-B5C1-BB2C86F1BC57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2CABB0-2C56-4CFB-B5C1-BB2C86F1BC57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2CABB0-2C56-4CFB-B5C1-BB2C86F1BC57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72406CAD-FAC8-4E85-9CE1-C29DF015A897}
+	EndGlobalSection
+EndGlobal
