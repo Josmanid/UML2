@@ -10,9 +10,9 @@ namespace UML2
     {
 
         #region properties
-        public int Id { get; set; }
-        public string Name { get; set; } 
-        public decimal Price { get; set; }
+        public int Id { get; private set; }
+        public string Name { get; private set; } 
+        public decimal Price { get; private set; }
         #endregion
         public Pizza(int ID,string name, decimal price)
         {

@@ -107,9 +107,10 @@ namespace UML2
                         }
                         catch (FormatException)
                         {
-                            Console.WriteLine("Enter a whole number for the ID)");
+                            Console.WriteLine("Enter a whole NEW number for the ID)");
                             Console.WriteLine("Enter a number for price");
                             Console.WriteLine("Enter the name in text for pizza");
+                            
                         }
                         catch (Exception)
                         {

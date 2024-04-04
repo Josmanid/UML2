@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using System.Threading.Channels;
 using System.Threading.Tasks;
 
 namespace UML2
@@ -11,7 +12,7 @@ namespace UML2
     {
         //CRUD operations (Create, Read, Update and Delete). need to be implemeted here!
         // Create a class MenuCatalog, that contains pizzas
-        List<Pizza> _pizzaList;
+        private List<Pizza> _pizzaList;
 
         public MenuCatalog()
         {
@@ -22,12 +23,16 @@ namespace UML2
         //Create: method to add a pizza to the menu  
         public void AddPizza(Pizza p) 
         {
+            foreach (Pizza pizza in _pizzaList)
+            {
+                if (p.Id == pizza.Id) { throw new FormatException("Number already exist! try again!") ; }
+            }
             _pizzaList.Add(p);
         
         }
         //Read: Implement a method, PrintMenu, that can print out the menu card (to the screen)
         public void PrintMenu() {
-            foreach (var p in _pizzaList) 
+            foreach (Pizza p in _pizzaList) 
         { 
                 Console.WriteLine(p);
             
